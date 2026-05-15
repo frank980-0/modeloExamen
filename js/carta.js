@@ -83,6 +83,7 @@ export class Carta {
 
     const botonGuardar = document.createElement("button");
     botonGuardar.textContent = "Guardar";
+    botonGuardar.className = "btn btn-primary btn-sm mt-auto";
     botonGuardar.onclick = () => Carta.guardarCarta(this);
     div.appendChild(botonGuardar);
 
